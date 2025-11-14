@@ -1,0 +1,26 @@
+.office-sminex {
+  &__picture {
+    width: 100%;
+
+    @include vp-1023 {
+      display: block;
+      height: 280px;
+    }
+
+    @include vp-767 {
+      max-height: 200px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+
+    @include vp-1023 {
+      height: 280px;
+    }
+  }
+
+  @include vp-767 {
+    max-height: 200px;
+  }
+}

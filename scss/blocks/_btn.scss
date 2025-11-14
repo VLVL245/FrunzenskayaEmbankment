@@ -1,0 +1,24 @@
+.btn {
+  min-width: 220px;
+  min-height: 60px;
+  color: $color-fallow;
+  background-color: $color-rustic-red;
+  border: 1px solid $color-fallow;
+  border-radius: 0 40px 0 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0;
+
+  @include vp-1023 {
+    min-width: 180px;
+    min-height: 50px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.btn:hover,
+.btn:focus {
+  background-color: $color-fallow;
+  color: $color-rustic-red;
+}

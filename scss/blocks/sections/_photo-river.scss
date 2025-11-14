@@ -1,0 +1,36 @@
+.photo-river {
+  margin-bottom: 120px;
+
+  @include vp-1023 {
+    margin-bottom: 80px;
+  }
+
+  @include vp-767 {
+    margin-bottom: 60px;
+  }
+
+  &__picture {
+    display: block;
+    width: 100%;
+
+    @include vp-1023 {
+      height: 460px;
+    }
+
+    @include vp-767 {
+      height: 300px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+
+    @include vp-1023 {
+      height: 460px;
+    }
+
+    @include vp-767 {
+      height: 300px;
+    }
+  }
+}
